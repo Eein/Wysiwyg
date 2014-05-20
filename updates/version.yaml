@@ -1,0 +1,6 @@
+0.1.0:
+    - Initialize Plugin
+    - very much beta
+0.1.1:
+	- Adding Trumbowyg uploader Plugin
+	- The plugin adds a file into /uploads/public/wysiwyg/:slug/
