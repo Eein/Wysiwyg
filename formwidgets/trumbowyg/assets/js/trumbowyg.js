@@ -16,9 +16,15 @@
     // ===============
     $(document).render(function () {
 
+    	var slug;
+    	if($('#Form-form-field-Post-slug').val()){
+    		slug = $('#Form-form-field-Post-slug').val();
+    	}else{
+    		slug = $('.nav.nav-tabs li.active:first a').attr('title');
+    	}
     	$.extend(true, $.trumbowyg, {
                 upload: {
-		            serverPath: '/eein/wysiwyg/upload/' + $('#Form-form-field-Post-slug').val() + '/'
+		            serverPath: '/eein/wysiwyg/upload/' + slug + '/'
 		        }
             });
         $('[data-control="trumbowyg"] textarea').trumbowyg({        
