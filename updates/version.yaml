@@ -5,3 +5,5 @@
     - Adding Trumbowyg uploader Plugin
     - The plugin adds a file into /uploads/public/wysiwyg/:slug/
     - Alt text still not working
+0.1.2:
+    - Quick fix to non-blog paths.
