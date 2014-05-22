@@ -7,3 +7,7 @@
     - Alt text still not working
 0.1.2:
     - Quick fix to non-blog paths.
+0.2.0:
+	- Updated plugin name.
+	- Updated plugin upload paths.
+	- Simplified Documenation to meet guidelines.
