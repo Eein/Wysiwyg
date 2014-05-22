@@ -1,4 +1,4 @@
-<?php namespace Eein\Wysiwyg;
+<?php namespace Eein\Trumbowyg;
 
 /**
  * The plugin.php file (called the plugin initialization script) defines the plugin information class.
@@ -13,16 +13,16 @@ class Plugin extends PluginBase
     {
         return [
             'name'        => 'Trumbowyg',
-            'description' => 'Open Source WYSIWYG Editor',
+            'description' => 'Trumbowyg WYSIWYG FormWidget',
             'author'      => 'William Volin @ Woodlands Ad Agency - Trumbowyg by Alex D - http://alex-d.fr/',
-            'icon'        => 'icon-leaf'
+            'icon'        => 'icon-align-justify'
         ];
     }
 
      public function registerFormWidgets()
      {
         return [
-            'Eein\Wysiwyg\FormWidgets\Trumbowyg' => [
+            'Eein\Trumbowyg\FormWidgets\Trumbowyg' => [
                 'label' => 'Trumbowyg',
                 'alias' => 'trumbowyg'
             ]

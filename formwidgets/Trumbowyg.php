@@ -1,4 +1,4 @@
-<?php namespace Eein\Wysiwyg\FormWidgets;
+<?php namespace Eein\Trumbowyg\FormWidgets;
 
 use Backend\Classes\FormWidgetBase;
 
@@ -6,7 +6,7 @@ use Backend\Classes\FormWidgetBase;
  * Trumbowyg WYSIWYG Editor
  * Renders a WYSIWYG editor field.
  *
- * @package Eein\Wysiwyg
+ * @package Eein\Trumbowyg
  * @author William Volin @ Woodlands Ad Agency - Trumbowyg by Alex D - http://alex-d.fr/
  */
 class Trumbowyg extends FormWidgetBase

@@ -1,7 +1,7 @@
 <?php
 //Routes.php
 
-Route::post('/eein/wysiwyg/upload/{slug}/', function($slug){
+Route::post('/eein/trumbowyg/upload/{slug}/', function($slug){
 
 /**
  * Upload directory
@@ -10,7 +10,7 @@ Route::post('/eein/wysiwyg/upload/{slug}/', function($slug){
 //create directory if doesn't exist
 
 
-define("UPLOADDIR", "./uploads/public/wysiwyg/" . $slug . "/");
+define("UPLOADDIR", "./uploads/public/trumbowyg/" . $slug . "/");
 
 if (!file_exists(UPLOADDIR)) {
     mkdir(UPLOADDIR, 0777, true);
