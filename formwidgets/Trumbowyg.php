@@ -1,4 +1,4 @@
-<?php namespace Eein\Trumbowyg\FormWidgets;
+<?php namespace Eein\Wysiwyg\FormWidgets;
 
 use Backend\Classes\FormWidgetBase;
 

@@ -24,7 +24,7 @@
     	}
     	$.extend(true, $.trumbowyg, {
                 upload: {
-		            serverPath: '/eein/trumbowyg/upload/' + slug + '/'
+		            serverPath: '/eein/wysiwyg/upload/' + slug + '/'
 		        }
             });
         $('[data-control="trumbowyg"] textarea').trumbowyg({        

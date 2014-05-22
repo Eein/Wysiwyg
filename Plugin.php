@@ -1,4 +1,4 @@
-<?php namespace Eein\Trumbowyg;
+<?php namespace Eein\Wysiwyg;
 
 /**
  * The plugin.php file (called the plugin initialization script) defines the plugin information class.
@@ -22,7 +22,7 @@ class Plugin extends PluginBase
      public function registerFormWidgets()
      {
         return [
-            'Eein\Trumbowyg\FormWidgets\Trumbowyg' => [
+            'Eein\Wysiwyg\FormWidgets\Trumbowyg' => [
                 'label' => 'Trumbowyg',
                 'alias' => 'trumbowyg'
             ]

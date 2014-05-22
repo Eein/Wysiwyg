@@ -26,7 +26,7 @@
         },
 
         upload: {
-            serverPath: './trumbowyg/plugins/upload/trumbowyg.upload.php'
+            serverPath: './eein/plugins/upload/trumbowyg.upload.php'
         },
 
         opts: {
