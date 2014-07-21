@@ -13,3 +13,5 @@
     - Simplified Documenation to meet guidelines.
 0.2.1:
     - replace_content_editor.php
+0.3.0:
+    - Update Trumbowyg to v1.0

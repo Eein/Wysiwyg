@@ -1,5 +1,5 @@
 /* ===========================================================
- * trumbowyg.upload.js
+ * trumbowyg.upload.js v1.0
  * Upload plugin for Trumbowyg
  * http://alex-d.github.com/Trumbowyg
  * ===========================================================
@@ -36,7 +36,7 @@
                         var file,
                             pfx = tbw.o.prefix;
 
-                        $modal = tbw.openModalInsert(
+                        var $modal = tbw.openModalInsert(
                             // Title
                             tbw.lang['upload'],
 
@@ -85,11 +85,8 @@
                                     },
 
                                     success: function(data){
-
                                         if(data.message == "uploadSuccess") {
-                                            
                                             data.file = data.file.substring(1).toLowerCase();
-
                                             tbw.execCommand('insertImage', data.file);
                                             setTimeout(function(){
                                                 tbw.closeModal();
